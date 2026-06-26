@@ -1,0 +1,15 @@
+# Virtual Environment
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# ChromaDB
+chroma_db/
+
+# Evaluation Results
+results/
+
+# VS Code
+.vscode/
