@@ -39,6 +39,7 @@ This creates a controlled experiment where only the chunking configuration chang
 ---
 
 # Project Architecture
+```
 
                     sample.pdf
                          │
@@ -71,8 +72,15 @@ This creates a controlled experiment where only the chunking configuration chang
 
 ---
 
+# Architecture Diagram
+
+![Architecture](assets/architecture.png)
+
+---
+
 # Project Structure
 
+```
 rag_evaluation_miniproject/
 │
 ├── build_index.py
@@ -111,7 +119,7 @@ rag_evaluation_miniproject/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/rag-retrieval-evaluation-framework.git
+git clone https://github.com/<boddetijayanth22>/rag-retrieval-evaluation-framework.git
 
 cd rag-retrieval-evaluation-framework
 ```
@@ -194,6 +202,14 @@ Only the chunking parameters were changed while keeping every other component id
 | A             |      60% |      80% |
 | B             |      60% |      80% |
 | C             |  **70%** |  **90%** |
+
+---
+
+# Evaluation Output
+
+![Evaluation Output](assets/evaluation-output.png)
+
+---
 
 ### Best Performing Configuration
 
